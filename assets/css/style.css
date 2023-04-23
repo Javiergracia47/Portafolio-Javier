@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif; ;
+}
+/*Barra de navegacion*/
+.nav-item a:hover{
+    color: orange;
+}
+
+.navbar{
+    padding: 2rem;
+}
+
+.navbar-collapse{
+   align-items: center;
+   justify-content: space-between;    
+}
+
+/*Seccion acerca de mi*/
+.acerca-de-mi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        text-align: center;
+        font-weight: 900;
+}
+
+.texto{
+   width: 50%
+}
+
+.acerca-de-mi h2{
+    font-size: 47px;
+}
+
+.texto h5{
+   padding-top: 20px;
+   font-size: 19px;
+   width: 287px;
+   margin: auto;
+}
+
+.yo img{
+    border-radius: 55%;
+    margin-bottom: 20px;
+}
+/*seccion proyectos*/
+.mis-trabajos{
+    text-align: center;
+    font-weight: 800;
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    color: #f2f7fa;
+}
+
+.mis-trabajos h4{
+    font-size: 18px;
+}
+
+.texto-2{
+    padding-top: 30px;
+    font-weight: 500;
+}
+.proyecto{
+    margin-top: 30px;
+}
+
+
+.proyecto img{
+   width: 100%;
+}
+
+.imagen-proyectos:hover{
+    transform: scale(1.1);
+}
+
+.imagen-proyectos{
+    border-radius: 10%;
+}
+
+
+/*Seccion estudios*/
+.estudios{
+    margin-top: 60px;
+}
+
+.container h2,h5{
+    text-align: center;
+}
+
+.container h2{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.habilidades{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.btn{
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.btn:hover{
+    background-color:rgb(146, 68, 13);
+    color: aliceblue;
+}
+
+.container{
+    width: 50%; 
+}
+
+/*seccion contacto*/
+.contacto{
+    height: 180px;
+    margin-top: 190px;
+    background-color: orange;
+}
+
+.box{
+    text-align: center;
+}
+
+.box h2{
+    color: #f2f7fa;
+    padding-top: 40px;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+.informacion{
+    margin-top: 10px;
+}
+
+.imagen:hover {
+    transform: scale(1.4);
+  }
+  
