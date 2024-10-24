@@ -2,13 +2,20 @@
 *{
     font-family: 'Roboto', sans-serif; ;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+}
 /*Barra de navegacion*/
 .nav-item a:hover{
-    color: orange;
+    color: rgb(27, 27, 224);
 }
 
 .navbar{
     padding: 2rem;
+    font-weight: bold;
+    font-size: 23px;
 }
 
 .navbar-collapse{
@@ -31,6 +38,9 @@
    width: 50%
 }
 
+.acerca-de-mi h1{
+    font-weight: bold;
+}
 .acerca-de-mi h2{
     font-size: 47px;
 }
@@ -41,8 +51,9 @@
 }
 
 .yo img{
-    border-radius: 55%;
+    max-width: 200px;
     margin-bottom: 20px;
+    border-radius: 100%;
 }
 /*seccion proyectos*/
 .mis-trabajos{
@@ -51,7 +62,7 @@
     margin-top: 100px;
     height: 100%;
     width: 100%;
-    background-color: orange;
+    background-color:rgb(17, 65, 195) ;
     color: #f2f7fa;
 }
 
@@ -104,7 +115,7 @@
 
 .btn{
     background-color: orange;
-    color: whitesmoke;
+    color: whitesmoke;  /*cambiar por img*/
 }
 
 .btn:hover{
@@ -120,7 +131,7 @@
 .contacto{
     height: 180px;
     margin-top: 190px;
-    background-color: orange;
+    background-color: rgb(17, 65, 195);
 }
 
 .box{
